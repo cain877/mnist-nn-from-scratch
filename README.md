@@ -1,8 +1,8 @@
 ## MNIST NN with two hidden layers (No TensorFlow)
 ### author: @zanolablue
 
-Simple MNIST NN inspired by Samson Zhang video with updated normalization and added a hidden layer using the ReLU activation function, improving accuracy.
-Below are the equations for the propagations and activation functions:
+Simple MNIST NN inspired by Samson Zhang video with updated normalization and an added hidden layer using the ReLU activation function, improving accuracy.
+Below are the equations for the propagations:
 
 **Forward propagation**
 
@@ -52,4 +52,4 @@ Below are the equations for the propagations and activation functions:
   
 * 𝑏[1]:=𝑏[1]−𝛼𝑑𝑏[1]
 
-
+Where the activation function ReLU() is being used for the hidden layers and softmax() is used to activate the output layer denoted by A[3]
