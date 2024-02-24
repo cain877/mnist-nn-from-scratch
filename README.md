@@ -1,5 +1,5 @@
 ## MNIST NN with two hidden layers (No TensorFlow)
-### author: A. Galbraith <@zanolablue>
+### Author: Archie Galbraith <@zanolablue>
 
 Simple MNIST NN inspired by Samson Zhang with updated normalization in init_params and an added hidden layer, improving the overall accuracy of the original NN.
 
